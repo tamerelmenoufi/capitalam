@@ -1,6 +1,6 @@
 <?php
     date_default_timezone_set("America/Manaus");
-    include("/capitalinc/connect.php");
+    include("/appinc/connect.php");
     $con = AppConnect('capital');
     include("classes.php");
     include("{$_SERVER['DOCUMENT_ROOT']}/painel/lib/fn.php");
