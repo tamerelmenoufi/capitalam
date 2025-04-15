@@ -8,23 +8,23 @@
 
     // include("connect_local.php");
 
-    include("/capitalinc/connect.php");
+    include("/appinc/connect.php");
     $con = AppConnect('capital');
 
     // $ConfWappNumero = '5592981490062';
     $ConfWappNumero = '559231901244';
     
     //Configurações diversas
-    include("/capitalinc/config.php");
+    include("/appinc/config.php");
 
     // include("/appinc/connect.php");
     include("fn.php");
 
-    include("{$_SERVER['DOCUMENT_ROOT']}/painel/lib/vendor/api/vctex.php");
-    include("{$_SERVER['DOCUMENT_ROOT']}/painel/lib/vendor/api/facta.php");
+    include("{$_SERVER['DOCUMENT_ROOT']}/capitalam/painel/lib/vendor/api/vctex.php");
+    include("{$_SERVER['DOCUMENT_ROOT']}/capitalam/painel/lib/vendor/api/facta.php");
 
     //Bibliotecas de comunicação
-    include("{$_SERVER['DOCUMENT_ROOT']}/painel/lib/vendor/wapp/wgw/classes.php");
+    include("{$_SERVER['DOCUMENT_ROOT']}/capitalam/painel/lib/vendor/wapp/wgw/classes.php");
 
     $md5 = md5(date("YmdHis"));
 
@@ -34,6 +34,5 @@
     // $localPainel = "http://capital.mohatron.com/painel/";
     // $localSite = "http://capital.mohatron.com/site/";
 
-
-    $localPainel = "https://painel.capitalsolucoesam.com.br/";
-    $localSite = "https://capitalsolucoesam.com.br/";
+    $localPainel = "http://146.190.52.49:8081/capitalam/painel/";
+    $localSite = "http://146.190.52.49:8081/capitalam/site/";
