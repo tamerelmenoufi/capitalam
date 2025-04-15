@@ -1,5 +1,5 @@
 <?php
-    include("{$_SERVER['DOCUMENT_ROOT']}/site/assets/lib/includes.php");
+    include("{$_SERVER['DOCUMENT_ROOT']}/capitalam/site/assets/lib/includes.php");
 ?><!DOCTYPE html>
 <html lang="en">
 

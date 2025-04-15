@@ -1,5 +1,5 @@
 <?php
-    include("{$_SERVER['DOCUMENT_ROOT']}/site/assets/lib/includes.php");
+    include("{$_SERVER['DOCUMENT_ROOT']}/capitalam/site/assets/lib/includes.php");
 
     if($_GET['wapp']){
       $_SESSION['wapp'] = true;
