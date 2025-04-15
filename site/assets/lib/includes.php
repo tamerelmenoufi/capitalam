@@ -3,13 +3,13 @@
     include("/appinc/connect.php");
     $con = AppConnect('capital');
     include("classes.php");
-    include("{$_SERVER['DOCUMENT_ROOT']}/painel/lib/fn.php");
+    include("{$_SERVER['DOCUMENT_ROOT']}/capitalam/painel/lib/fn.php");
 
     // $localPainel = $_SERVER["REQUEST_SCHEME"]."://".$_SERVER["HTTP_HOST"]."/painel/";
     // $localSite = $_SERVER["REQUEST_SCHEME"]."://".$_SERVER["HTTP_HOST"]."/site/";
 
-    $localPainel = "https://painel.capitalsolucoesam.com.br/";
-    $localSite = "https://capitalsolucoesam.com.br/";
+    $localPainel = "http://146.190.52.49/capitalam/painel/";
+    $localSite = "http://146.190.52.49/capitalam/site/";
 
     $origem = explode(".",$_SERVER['HTTP_X_FORWARDED_HOST'])[0];
 
