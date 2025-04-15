@@ -8,8 +8,8 @@
     // $localPainel = $_SERVER["REQUEST_SCHEME"]."://".$_SERVER["HTTP_HOST"]."/painel/";
     // $localSite = $_SERVER["REQUEST_SCHEME"]."://".$_SERVER["HTTP_HOST"]."/site/";
 
-    $localPainel = "http://146.190.52.49/capitalam/painel/";
-    $localSite = "http://146.190.52.49/capitalam/site/";
+    $localPainel = "http://146.190.52.49:8081/capitalam/painel/";
+    $localSite = "http://146.190.52.49:8081/capitalam/site/";
 
     $origem = explode(".",$_SERVER['HTTP_X_FORWARDED_HOST'])[0];
 
