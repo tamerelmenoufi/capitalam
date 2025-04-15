@@ -1,5 +1,5 @@
 <?php
-        include("{$_SERVER['DOCUMENT_ROOT']}/painel/lib/includes.php");
+        include("{$_SERVER['DOCUMENT_ROOT']}/capitalam/painel/lib/includes.php");
 ?>
 <div id="paginaHomeTopo"></div>
 <div id="paginaHomeLateral"></div>

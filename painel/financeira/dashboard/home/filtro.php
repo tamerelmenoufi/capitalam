@@ -1,5 +1,5 @@
 <?php
-        include("{$_SERVER['DOCUMENT_ROOT']}/painel/lib/includes.php");
+        include("{$_SERVER['DOCUMENT_ROOT']}/capitalam/painel/lib/includes.php");
 
         $periodo = explode("-",$_POST['periodo']);
         if($periodo[2]) $periodo = "{$periodo[2]}/{$periodo[1]}/{$periodo[0]}";

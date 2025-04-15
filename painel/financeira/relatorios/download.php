@@ -5,7 +5,7 @@
     header('Pragma: no-cache');
     header('Expires: 0');
 
-    include("{$_SERVER['DOCUMENT_ROOT']}/painel/lib/includes.php");
+    include("{$_SERVER['DOCUMENT_ROOT']}/capitalam/painel/lib/includes.php");
 
     if($_SESSION['data_inicial'] and $_SESSION['data_final']){
         $where = " and ultimo_acesso between '{$_SESSION['data_inicial']} 00:00:00' and '{$_SESSION['data_final']} 23:59:59'";

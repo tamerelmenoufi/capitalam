@@ -1,5 +1,5 @@
 <?php
-        include("{$_SERVER['DOCUMENT_ROOT']}/painel/lib/includes.php");
+        include("{$_SERVER['DOCUMENT_ROOT']}/capitalam/painel/lib/includes.php");
 
         if($_POST['cpf_novo']){
             $d = mysqli_fetch_object(mysqli_query($con, "select * from clientes where cpf = '{$_POST['cpf_novo']}'"));

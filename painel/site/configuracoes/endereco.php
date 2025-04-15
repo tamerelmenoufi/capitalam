@@ -1,5 +1,5 @@
 <?php
-    include("{$_SERVER['DOCUMENT_ROOT']}/painel/lib/includes.php");
+    include("{$_SERVER['DOCUMENT_ROOT']}/capitalam/painel/lib/includes.php");
 
     $query = "select * from configuracoes where codigo = '1'";
     $result = mysqli_query($con, $query);

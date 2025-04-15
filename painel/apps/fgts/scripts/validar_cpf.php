@@ -1,7 +1,7 @@
 <?php
 
 header('Content-Type: application/json; charset=utf-8');
-include("{$_SERVER['DOCUMENT_ROOT']}/painel/lib/includes.php");
+include("{$_SERVER['DOCUMENT_ROOT']}/capitalam/painel/lib/includes.php");
 $inputData = file_get_contents('php://input');
 $data = json_decode($inputData, true);
 

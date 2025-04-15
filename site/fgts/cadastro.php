@@ -1,6 +1,6 @@
 <?php
 
-include("{$_SERVER['DOCUMENT_ROOT']}/painel/lib/includes.php");
+include("{$_SERVER['DOCUMENT_ROOT']}/capitalam/painel/lib/includes.php");
 
 list($bancos) = mysqli_fetch_row(sisLog( "select bancos from configuracoes where codigo = '1'"));
 $bancos = json_decode($bancos);

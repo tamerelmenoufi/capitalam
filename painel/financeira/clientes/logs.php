@@ -1,5 +1,5 @@
 <?php
-    include("{$_SERVER['DOCUMENT_ROOT']}/painel/lib/includes.php");
+    include("{$_SERVER['DOCUMENT_ROOT']}/capitalam/painel/lib/includes.php");
 
     $c = mysqli_fetch_object(mysqli_query($con, "select * from clientes where codigo = '{$_POST['cliente']}'"));
 

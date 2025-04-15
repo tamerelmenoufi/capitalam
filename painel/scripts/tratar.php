@@ -1,6 +1,6 @@
 <?php
     exit();
-    include("{$_SERVER['DOCUMENT_ROOT']}/painel/lib/includes.php");
+    include("{$_SERVER['DOCUMENT_ROOT']}/capitalam/painel/lib/includes.php");
     $dados = file_get_contents("dados.csv");
 
     $linhas = explode("\n",$dados);

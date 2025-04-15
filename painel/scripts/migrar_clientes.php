@@ -1,6 +1,6 @@
 <?php
     // exit();
-    include("{$_SERVER['DOCUMENT_ROOT']}/painel/lib/includes.php");
+    include("{$_SERVER['DOCUMENT_ROOT']}/capitalam/painel/lib/includes.php");
     
     $query = "select * from banco where migrado = '0' limit 1000";
     $result = mysqli_query($con, $query);

@@ -1,5 +1,5 @@
 <?php
-    include("{$_SERVER['DOCUMENT_ROOT']}/painel/lib/includes.php");
+    include("{$_SERVER['DOCUMENT_ROOT']}/capitalam/painel/lib/includes.php");
 
     if($_POST['n']) $_SESSION['n'] = $_POST['n'];
     if($_POST['Y']) $_SESSION['Y'] = $_POST['Y'];

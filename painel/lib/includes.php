@@ -15,7 +15,7 @@
     $ConfWappNumero = '559231901244';
     
     //Configurações diversas
-    include("/appinc/config.php");
+    //include("/appinc/config.php");
 
     // include("/appinc/connect.php");
     include("fn.php");

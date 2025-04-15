@@ -1,5 +1,5 @@
 <?php
-    include("{$_SERVER['DOCUMENT_ROOT']}/painel/lib/includes.php");
+    include("{$_SERVER['DOCUMENT_ROOT']}/capitalam/painel/lib/includes.php");
 
     if($_POST['acao'] == 'coordenadas'){
         $query = "update configuracoes set coordenadas = '{$_POST['coordenadas']}' where codigo = '1'";
