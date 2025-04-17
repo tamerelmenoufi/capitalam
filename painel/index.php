@@ -10,13 +10,13 @@
     $app = (($_GET['app'])?:'financeira');
 
     if($_SESSION['ProjectPainel']->perfil == 'adm'){
-        $url = "{$app}/home/index.php";
+        $url = "site/home/index.php";
     }else if($_SESSION['ProjectPainel']->perfil == 'financeiro'){
-        $url = "financeira/home/index.php";
+        $url = "site/home/index.php";
     }else if($_SESSION['ProjectPainel']->perfil == 'site'){
         $url = "site/home/index.php";
     }else if($_SESSION['ProjectPainel']->perfil == 'consulta'){
-        $url = "{$app}/home/index.php";
+        $url = "site/home/index.php";
     }else{
         $url = "src/login/index.php";
     }
