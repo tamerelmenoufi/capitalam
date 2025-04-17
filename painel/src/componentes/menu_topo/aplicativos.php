@@ -1,5 +1,6 @@
 <?php
     include("{$_SERVER['DOCUMENT_ROOT']}/capitalam/painel/lib/includes.php");
+    exit();
 ?>
 <style>
     .appIcons{
