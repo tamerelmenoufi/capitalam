@@ -156,7 +156,7 @@
                       <div>
                         <div style="width:70px;">
                           <button eventos="<?=$d->codigo?>" class="btn btn-warning btn-sm me-1"><i class="fa-solid fa-clipboard-list"></i></button>
-                          <button chat="<?=$d->codigo?>" class="btn btn-success btn-sm"><i class="fa-brands fa-whatsapp"></i></button>
+                          <!-- <button chat="<?=$d->codigo?>" class="btn btn-success btn-sm"><i class="fa-brands fa-whatsapp"></i></button> -->
                         </div>
                       </div>
                     </div>

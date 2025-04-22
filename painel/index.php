@@ -91,9 +91,9 @@ body {
     <?php
     if($_SESSION['ProjectPainel']->wapp){
     ?>
-    <div class="popupWappButton" data-bs-toggle="offcanvas" href="#offcanvasDireita" aria-controls="offcanvasDireita" >
+    <!-- <div class="popupWappButton" data-bs-toggle="offcanvas" href="#offcanvasDireita" aria-controls="offcanvasDireita" >
         <i class="fa-brands fa-whatsapp" style="font-size:30px;"></i>
-    </div>
+    </div> -->
     <?php
     }
     ?>

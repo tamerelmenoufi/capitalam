@@ -305,14 +305,14 @@
                         <?php
                         // if($_SESSION['ProjectPainel']->wapp){
                         ?>
-                        <li><a 
+                        <!-- <li><a 
                           class="dropdown-item" 
                           mensagens="<?=$d->codigo?>"
                           data-bs-toggle="offcanvas"
                           href="#offcanvasDireita"
                           role="button"
                           aria-controls="offcanvasDireita"
-                        ><i class="fa-brands fa-whatsapp"></i> Mensagens</a></li>
+                        ><i class="fa-brands fa-whatsapp"></i> Mensagens</a></li> -->
                         <?php
                         // }
                         if(!$del){
