@@ -31,8 +31,8 @@
     // $localPainel = $_SERVER["REQUEST_SCHEME"]."://".$_SERVER["HTTP_HOST"]."/painel/";
     // $localSite = $_SERVER["REQUEST_SCHEME"]."://".$_SERVER["HTTP_HOST"]."/site/";
 
-    // $localPainel = "http://capital.mohatron.com/painel/";
-    // $localSite = "http://capital.mohatron.com/site/";
+    $localPainel = "https://painel.capitalam.com.br/";
+    $localSite = "https://capitalam.com.br/";
 
-    $localPainel = "http://146.190.52.49:8081/capitalam/painel/";
-    $localSite = "http://146.190.52.49:8081/capitalam/site/";
+    // $localPainel = "http://146.190.52.49:8081/capitalam/painel/";
+    // $localSite = "http://146.190.52.49:8081/capitalam/site/";
