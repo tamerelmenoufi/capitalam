@@ -76,7 +76,7 @@
                 <?php
                 if($d->codigo != 1 and $_SESSION['ProjectPainel']->perfil == 'adm'){
                 ?>
-                <div class="form-floating mb-3">
+                <!-- <div class="form-floating mb-3">
                     <select name="perfil" class="form-control" id="perfil">
                         <option value="adm" <?=(($d->perfil == 'adm')?'selected':false)?>>Administrador</option>
                         <option value="site" <?=(($d->perfil == 'site')?'selected':false)?>>Site</option>
@@ -84,17 +84,17 @@
                         <option value="consulta" <?=(($d->perfil == 'consulta')?'selected':false)?>>Consulta</option>
                     </select>
                     <label for="email">Perfil</label>
-                </div>
+                </div> -->
 
                 <div class="form-floating mb-3">
                     <input type="text" name="login" id="login" class="form-control" placeholder="Login" value="<?=$d->login?>">
                     <label for="login">Login</label>
                 </div>
 
-                <div class="mb-3 form-check">
+                <!-- <div class="mb-3 form-check">
                     <input type="checkbox" class="form-check-input" id="wapp" value="1" <?=(($d->wapp)?'checked':false)?>>
                     <label class="form-check-label" for="wapp">Permissão para atendimento WhatsApp</label>
-                </div>
+                </div> -->
 
                 <?php
                 }
